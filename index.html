@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfortlio</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="skill.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+
+    <main>
+        <div class="about" id="about">
+            <p>Hello and Good day to everyone! I'm Alord Jhinroy M. Somera, 
+                a committed Computer Science student with a deep interest in technology and innovation. 
+                This portfolio is designed to showcase my abilities, academic and experiences, 
+                and the various projects I've worked on.</p>
+        </div>
+        <section id="section">
+            <div class="col-3 col-s-3 section1" id="about">
+                <div class="head" id="home">
+                    <div class="slider">
+                        <span style="--i:1"><img src="Information-about/1.jpg" alt=""></span>
+                        <span style="--i:2"><img src="Information-about/2.jpg" alt=""></span>
+                        <span style="--i:3"><img src="Information-about/3.jpg" alt=""></span>
+                        <span style="--i:4"><img src="Information-about/4.jpg" alt=""></span>
+                        <span style="--i:5"><img src="Information-about/5.jpg" alt=""></span>
+                        <span style="--i:6"><img src="Information-about/6.jpg" alt=""></span>
+                        <span style="--i:7"><img src="Information-about/7.jpg" alt=""></span>
+                        <span style="--i:8"><img src="Information-about/8.jpg" alt=""></span>
+                        
+                    </div>
+        
+                </div>
+                
+            </div>
+        </section>
+    </main>
+</body>
+</html>
